@@ -1,0 +1,13 @@
+/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/android/include/aom/aom.h
+/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/android/include/aom/aom_codec.h
+/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/android/include/aom/aom_frame_buffer.h
+/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/android/include/aom/aom_image.h
+/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/android/include/aom/aom_integer.h
+/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/android/include/aom/aom.h
+/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/android/include/aom/aom_decoder.h
+/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/android/include/aom/aomdx.h
+/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/android/include/aom/aomcx.h
+/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/android/include/aom/aom_encoder.h
+/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/android/lib/pkgconfig/aom.pc
+/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/android/lib/libaom.so
+/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/android/lib/libaom.a

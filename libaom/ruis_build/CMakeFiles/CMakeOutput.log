@@ -1,0 +1,1069 @@
+The target system is: Linux -  - armv7
+The host system is: Darwin - 19.6.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a;-mfloat-abi=softfp
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/3.18.2/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a;-mfloat-abi=softfp
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/3.18.2/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3d37e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3d37e.dir/build.make CMakeFiles/cmTC_3d37e.dir/build
+Building C object CMakeFiles/cmTC_3d37e.dir/CMakeCCompilerABI.c.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -v -o CMakeFiles/cmTC_3d37e.dir/CMakeCCompilerABI.c.o -c /usr/local/Cellar/cmake/3.18.2/share/cmake/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc
+Target: arm-linux-androideabi
+Configured with: /Volumes/Android/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa --target=arm-linux-androideabi --host=x86_64-apple-darwin --build=x86_64-apple-darwin --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -lstdc++ -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa --with-sysroot=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default
+Thread model: posix
+gcc version 4.9.x 20150123 (prerelease) (GCC) 
+COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_3d37e.dir/CMakeCCompilerABI.c.o' '-c' '-mfpu=vfp' '-mtls-dialect=gnu'
+ /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/cc1 -quiet -v -imultilib armv7-a -iprefix /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/ -isysroot /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm /usr/local/Cellar/cmake/3.18.2/share/cmake/Modules/CMakeCCompilerABI.c -mbionic -fpic -quiet -dumpbase CMakeCCompilerABI.c -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_3d37e.dir/CMakeCCompilerABI.c.o -version -o /var/folders/qg/wclv6z9x5x3_wkyljmqynd5c0000gn/T//cc9TOOhT.s
+GNU C (GCC) version 4.9.x 20150123 (prerelease) (arm-linux-androideabi)
+	compiled by GNU C version 4.2.1 (Apple Inc. build 5666) (dot 3), GMP version 5.0.5, MPFR version 3.1.1, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/include"
+ignoring duplicate directory "/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/../../lib/gcc/arm-linux-androideabi/4.9.x/include"
+ignoring nonexistent directory "/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/local/include"
+ignoring duplicate directory "/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/../../lib/gcc/arm-linux-androideabi/4.9.x/include-fixed"
+ignoring nonexistent directory "/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/../../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/include"
+ignoring nonexistent directory "/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/include
+ /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/include-fixed
+End of search list.
+GNU C (GCC) version 4.9.x 20150123 (prerelease) (arm-linux-androideabi)
+	compiled by GNU C version 4.2.1 (Apple Inc. build 5666) (dot 3), GMP version 5.0.5, MPFR version 3.1.1, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: f44464cb07eb54f74d7b5c976af8f1e3
+COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_3d37e.dir/CMakeCCompilerABI.c.o' '-c' '-mfpu=vfp' '-mtls-dialect=gnu'
+ /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/as -v -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -meabi=5 --noexecstack -o CMakeFiles/cmTC_3d37e.dir/CMakeCCompilerABI.c.o /var/folders/qg/wclv6z9x5x3_wkyljmqynd5c0000gn/T//cc9TOOhT.s
+GNU assembler version 2.27.0 (arm-linux-androideabi) using BFD version (binutils-2.27-53dd00a) 2.27.0.20170315
+COMPILER_PATH=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/
+LIBRARY_PATH=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/
+COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_3d37e.dir/CMakeCCompilerABI.c.o' '-c' '-mfpu=vfp' '-mtls-dialect=gnu'
+Linking C executable cmTC_3d37e
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d37e.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -v CMakeFiles/cmTC_3d37e.dir/CMakeCCompilerABI.c.o -o cmTC_3d37e 
+Using built-in specs.
+COLLECT_GCC=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc
+COLLECT_LTO_WRAPPER=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper
+Target: arm-linux-androideabi
+Configured with: /Volumes/Android/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa --target=arm-linux-androideabi --host=x86_64-apple-darwin --build=x86_64-apple-darwin --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -lstdc++ -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa --with-sysroot=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default
+Thread model: posix
+gcc version 4.9.x 20150123 (prerelease) (GCC) 
+COMPILER_PATH=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/
+LIBRARY_PATH=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/
+COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfloat-abi=softfp' '-v' '-o' 'cmTC_3d37e' '-mfpu=vfp' '-mtls-dialect=gnu'
+ /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2 -plugin /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so -plugin-opt=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper -plugin-opt=-fresolution=/var/folders/qg/wclv6z9x5x3_wkyljmqynd5c0000gn/T//cc9OBzRZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -o cmTC_3d37e /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/crtbegin_dynamic.o -L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a -L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a -L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x -L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc -L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib CMakeFiles/cmTC_3d37e.dir/CMakeCCompilerABI.c.o -lgcc -lc -ldl -lgcc /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/crtend_android.o
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/include]
+    add: [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/include-fixed]
+  end of search list found
+  collapse include dir [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/include] ==> [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include]
+  collapse include dir [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/include-fixed] ==> [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed]
+  implicit include dirs: [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include;/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_3d37e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3d37e.dir/build.make CMakeFiles/cmTC_3d37e.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_3d37e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -v -o CMakeFiles/cmTC_3d37e.dir/CMakeCCompilerABI.c.o -c /usr/local/Cellar/cmake/3.18.2/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc]
+  ignore line: [Target: arm-linux-androideabi]
+  ignore line: [Configured with: /Volumes/Android/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa --target=arm-linux-androideabi --host=x86_64-apple-darwin --build=x86_64-apple-darwin --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -lstdc++ -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa --with-sysroot=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.x 20150123 (prerelease) (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_3d37e.dir/CMakeCCompilerABI.c.o' '-c' '-mfpu=vfp' '-mtls-dialect=gnu']
+  ignore line: [ /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/cc1 -quiet -v -imultilib armv7-a -iprefix /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/ -isysroot /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm /usr/local/Cellar/cmake/3.18.2/share/cmake/Modules/CMakeCCompilerABI.c -mbionic -fpic -quiet -dumpbase CMakeCCompilerABI.c -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_3d37e.dir/CMakeCCompilerABI.c.o -version -o /var/folders/qg/wclv6z9x5x3_wkyljmqynd5c0000gn/T//cc9TOOhT.s]
+  ignore line: [GNU C (GCC) version 4.9.x 20150123 (prerelease) (arm-linux-androideabi)]
+  ignore line: [	compiled by GNU C version 4.2.1 (Apple Inc. build 5666) (dot 3)  GMP version 5.0.5  MPFR version 3.1.1  MPC version 1.0.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/include"]
+  ignore line: [ignoring duplicate directory "/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/../../lib/gcc/arm-linux-androideabi/4.9.x/include"]
+  ignore line: [ignoring nonexistent directory "/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/../../lib/gcc/arm-linux-androideabi/4.9.x/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/../../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/include"]
+  ignore line: [ignoring nonexistent directory "/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/include]
+  ignore line: [ /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/include-fixed]
+  ignore line: [End of search list.]
+  ignore line: [GNU C (GCC) version 4.9.x 20150123 (prerelease) (arm-linux-androideabi)]
+  ignore line: [	compiled by GNU C version 4.2.1 (Apple Inc. build 5666) (dot 3)  GMP version 5.0.5  MPFR version 3.1.1  MPC version 1.0.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: f44464cb07eb54f74d7b5c976af8f1e3]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_3d37e.dir/CMakeCCompilerABI.c.o' '-c' '-mfpu=vfp' '-mtls-dialect=gnu']
+  ignore line: [ /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/as -v -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -meabi=5 --noexecstack -o CMakeFiles/cmTC_3d37e.dir/CMakeCCompilerABI.c.o /var/folders/qg/wclv6z9x5x3_wkyljmqynd5c0000gn/T//cc9TOOhT.s]
+  ignore line: [GNU assembler version 2.27.0 (arm-linux-androideabi) using BFD version (binutils-2.27-53dd00a) 2.27.0.20170315]
+  ignore line: [COMPILER_PATH=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/]
+  ignore line: [LIBRARY_PATH=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_3d37e.dir/CMakeCCompilerABI.c.o' '-c' '-mfpu=vfp' '-mtls-dialect=gnu']
+  ignore line: [Linking C executable cmTC_3d37e]
+  ignore line: [/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d37e.dir/link.txt --verbose=1]
+  ignore line: [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -v CMakeFiles/cmTC_3d37e.dir/CMakeCCompilerABI.c.o -o cmTC_3d37e ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper]
+  ignore line: [Target: arm-linux-androideabi]
+  ignore line: [Configured with: /Volumes/Android/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa --target=arm-linux-androideabi --host=x86_64-apple-darwin --build=x86_64-apple-darwin --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -lstdc++ -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa --with-sysroot=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.x 20150123 (prerelease) (GCC) ]
+  ignore line: [COMPILER_PATH=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/]
+  ignore line: [LIBRARY_PATH=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfloat-abi=softfp' '-v' '-o' 'cmTC_3d37e' '-mfpu=vfp' '-mtls-dialect=gnu']
+  link line: [ /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2 -plugin /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so -plugin-opt=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper -plugin-opt=-fresolution=/var/folders/qg/wclv6z9x5x3_wkyljmqynd5c0000gn/T//cc9OBzRZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -o cmTC_3d37e /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/crtbegin_dynamic.o -L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a -L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a -L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x -L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc -L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib CMakeFiles/cmTC_3d37e.dir/CMakeCCompilerABI.c.o -lgcc -lc -ldl -lgcc /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/crtend_android.o]
+    arg [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/var/folders/qg/wclv6z9x5x3_wkyljmqynd5c0000gn/T//cc9OBzRZ.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-ldl] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_3d37e] ==> ignore
+    arg [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a] ==> dir [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a]
+    arg [-L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a] ==> dir [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a]
+    arg [-L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x] ==> dir [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x]
+    arg [-L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc] ==> dir [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc]
+    arg [-L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> dir [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib]
+    arg [-L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib] ==> dir [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib]
+    arg [CMakeFiles/cmTC_3d37e.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-ldl] ==> lib [dl]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/crtend_android.o] ==> ignore
+  collapse library dir [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a] ==> [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a]
+  collapse library dir [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a] ==> [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a]
+  collapse library dir [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x] ==> [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  collapse library dir [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc] ==> [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc]
+  collapse library dir [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib]
+  collapse library dir [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib] ==> [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib]
+  implicit libs: [gcc;c;dl;gcc]
+  implicit dirs: [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a;/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a;/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x;/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc;/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib;/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0b97c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0b97c.dir/build.make CMakeFiles/cmTC_0b97c.dir/build
+Building CXX object CMakeFiles/cmTC_0b97c.dir/CMakeCXXCompilerABI.cpp.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -v -o CMakeFiles/cmTC_0b97c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.18.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++
+Target: arm-linux-androideabi
+Configured with: /Volumes/Android/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa --target=arm-linux-androideabi --host=x86_64-apple-darwin --build=x86_64-apple-darwin --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -lstdc++ -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa --with-sysroot=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default
+Thread model: posix
+gcc version 4.9.x 20150123 (prerelease) (GCC) 
+COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_0b97c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfpu=vfp' '-mtls-dialect=gnu'
+ /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/cc1plus -quiet -v -imultilib armv7-a -iprefix /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/ -isysroot /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm -D_GNU_SOURCE /usr/local/Cellar/cmake/3.18.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp -mbionic -fpic -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_0b97c.dir/CMakeCXXCompilerABI.cpp.o -version -fexceptions -frtti -o /var/folders/qg/wclv6z9x5x3_wkyljmqynd5c0000gn/T//cc9tIG5Y.s
+GNU C++ (GCC) version 4.9.x 20150123 (prerelease) (arm-linux-androideabi)
+	compiled by GNU C version 4.2.1 (Apple Inc. build 5666) (dot 3), GMP version 5.0.5, MPFR version 3.1.1, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/include"
+ignoring nonexistent directory "/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/../../include/c++/4.9.x"
+ignoring nonexistent directory "/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/../../include/c++/4.9.x/arm-linux-androideabi/armv7-a"
+ignoring nonexistent directory "/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/../../include/c++/4.9.x/backward"
+ignoring duplicate directory "/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/../../lib/gcc/arm-linux-androideabi/4.9.x/include"
+ignoring nonexistent directory "/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/local/include"
+ignoring duplicate directory "/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/../../lib/gcc/arm-linux-androideabi/4.9.x/include-fixed"
+ignoring nonexistent directory "/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/../../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/include"
+ignoring nonexistent directory "/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/include
+ /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/include-fixed
+End of search list.
+GNU C++ (GCC) version 4.9.x 20150123 (prerelease) (arm-linux-androideabi)
+	compiled by GNU C version 4.2.1 (Apple Inc. build 5666) (dot 3), GMP version 5.0.5, MPFR version 3.1.1, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 26b9462795912805fdcf9ba938dd8818
+COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_0b97c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfpu=vfp' '-mtls-dialect=gnu'
+ /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/as -v -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -meabi=5 --noexecstack -o CMakeFiles/cmTC_0b97c.dir/CMakeCXXCompilerABI.cpp.o /var/folders/qg/wclv6z9x5x3_wkyljmqynd5c0000gn/T//cc9tIG5Y.s
+GNU assembler version 2.27.0 (arm-linux-androideabi) using BFD version (binutils-2.27-53dd00a) 2.27.0.20170315
+COMPILER_PATH=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/
+LIBRARY_PATH=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/
+COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_0b97c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfpu=vfp' '-mtls-dialect=gnu'
+Linking CXX executable cmTC_0b97c
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b97c.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -v CMakeFiles/cmTC_0b97c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0b97c 
+Using built-in specs.
+COLLECT_GCC=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++
+COLLECT_LTO_WRAPPER=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper
+Target: arm-linux-androideabi
+Configured with: /Volumes/Android/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa --target=arm-linux-androideabi --host=x86_64-apple-darwin --build=x86_64-apple-darwin --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -lstdc++ -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa --with-sysroot=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default
+Thread model: posix
+gcc version 4.9.x 20150123 (prerelease) (GCC) 
+COMPILER_PATH=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/
+LIBRARY_PATH=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/
+COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfloat-abi=softfp' '-v' '-o' 'cmTC_0b97c' '-mfpu=vfp' '-mtls-dialect=gnu'
+ /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2 -plugin /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so -plugin-opt=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper -plugin-opt=-fresolution=/var/folders/qg/wclv6z9x5x3_wkyljmqynd5c0000gn/T//ccLgzr1b.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -o cmTC_0b97c /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/crtbegin_dynamic.o -L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a -L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a -L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x -L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc -L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib CMakeFiles/cmTC_0b97c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lc -ldl -lgcc /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/crtend_android.o
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/include]
+    add: [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/include-fixed]
+  end of search list found
+  collapse include dir [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/include] ==> [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include]
+  collapse include dir [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/include-fixed] ==> [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed]
+  implicit include dirs: [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include;/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_0b97c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0b97c.dir/build.make CMakeFiles/cmTC_0b97c.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_0b97c.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -v -o CMakeFiles/cmTC_0b97c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.18.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++]
+  ignore line: [Target: arm-linux-androideabi]
+  ignore line: [Configured with: /Volumes/Android/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa --target=arm-linux-androideabi --host=x86_64-apple-darwin --build=x86_64-apple-darwin --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -lstdc++ -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa --with-sysroot=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.x 20150123 (prerelease) (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_0b97c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfpu=vfp' '-mtls-dialect=gnu']
+  ignore line: [ /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/cc1plus -quiet -v -imultilib armv7-a -iprefix /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/ -isysroot /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm -D_GNU_SOURCE /usr/local/Cellar/cmake/3.18.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp -mbionic -fpic -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_0b97c.dir/CMakeCXXCompilerABI.cpp.o -version -fexceptions -frtti -o /var/folders/qg/wclv6z9x5x3_wkyljmqynd5c0000gn/T//cc9tIG5Y.s]
+  ignore line: [GNU C++ (GCC) version 4.9.x 20150123 (prerelease) (arm-linux-androideabi)]
+  ignore line: [	compiled by GNU C version 4.2.1 (Apple Inc. build 5666) (dot 3)  GMP version 5.0.5  MPFR version 3.1.1  MPC version 1.0.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/include"]
+  ignore line: [ignoring nonexistent directory "/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/../../include/c++/4.9.x"]
+  ignore line: [ignoring nonexistent directory "/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/../../include/c++/4.9.x/arm-linux-androideabi/armv7-a"]
+  ignore line: [ignoring nonexistent directory "/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/../../include/c++/4.9.x/backward"]
+  ignore line: [ignoring duplicate directory "/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/../../lib/gcc/arm-linux-androideabi/4.9.x/include"]
+  ignore line: [ignoring nonexistent directory "/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/../../lib/gcc/arm-linux-androideabi/4.9.x/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/../../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/include"]
+  ignore line: [ignoring nonexistent directory "/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/include]
+  ignore line: [ /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/include-fixed]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++ (GCC) version 4.9.x 20150123 (prerelease) (arm-linux-androideabi)]
+  ignore line: [	compiled by GNU C version 4.2.1 (Apple Inc. build 5666) (dot 3)  GMP version 5.0.5  MPFR version 3.1.1  MPC version 1.0.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 26b9462795912805fdcf9ba938dd8818]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_0b97c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfpu=vfp' '-mtls-dialect=gnu']
+  ignore line: [ /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/as -v -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -meabi=5 --noexecstack -o CMakeFiles/cmTC_0b97c.dir/CMakeCXXCompilerABI.cpp.o /var/folders/qg/wclv6z9x5x3_wkyljmqynd5c0000gn/T//cc9tIG5Y.s]
+  ignore line: [GNU assembler version 2.27.0 (arm-linux-androideabi) using BFD version (binutils-2.27-53dd00a) 2.27.0.20170315]
+  ignore line: [COMPILER_PATH=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/]
+  ignore line: [LIBRARY_PATH=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_0b97c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfpu=vfp' '-mtls-dialect=gnu']
+  ignore line: [Linking CXX executable cmTC_0b97c]
+  ignore line: [/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b97c.dir/link.txt --verbose=1]
+  ignore line: [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -v CMakeFiles/cmTC_0b97c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0b97c ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper]
+  ignore line: [Target: arm-linux-androideabi]
+  ignore line: [Configured with: /Volumes/Android/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa --target=arm-linux-androideabi --host=x86_64-apple-darwin --build=x86_64-apple-darwin --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -lstdc++ -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa --with-sysroot=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.x 20150123 (prerelease) (GCC) ]
+  ignore line: [COMPILER_PATH=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/]
+  ignore line: [LIBRARY_PATH=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfloat-abi=softfp' '-v' '-o' 'cmTC_0b97c' '-mfpu=vfp' '-mtls-dialect=gnu']
+  link line: [ /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2 -plugin /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so -plugin-opt=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper -plugin-opt=-fresolution=/var/folders/qg/wclv6z9x5x3_wkyljmqynd5c0000gn/T//ccLgzr1b.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -o cmTC_0b97c /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/crtbegin_dynamic.o -L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a -L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a -L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x -L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc -L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib CMakeFiles/cmTC_0b97c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lc -ldl -lgcc /Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/crtend_android.o]
+    arg [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/var/folders/qg/wclv6z9x5x3_wkyljmqynd5c0000gn/T//ccLgzr1b.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-ldl] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_0b97c] ==> ignore
+    arg [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a] ==> dir [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a]
+    arg [-L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a] ==> dir [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a]
+    arg [-L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x] ==> dir [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x]
+    arg [-L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc] ==> dir [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc]
+    arg [-L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> dir [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib]
+    arg [-L/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib] ==> dir [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib]
+    arg [CMakeFiles/cmTC_0b97c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-ldl] ==> lib [dl]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib/crtend_android.o] ==> ignore
+  collapse library dir [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a] ==> [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a]
+  collapse library dir [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a] ==> [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a]
+  collapse library dir [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x] ==> [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  collapse library dir [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc] ==> [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc]
+  collapse library dir [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib]
+  collapse library dir [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib] ==> [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib]
+  implicit libs: [stdc++;m;gcc;c;dl;gcc]
+  implicit dirs: [/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a;/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a;/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x;/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc;/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib;/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_72711/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_72711.dir/build.make CMakeFiles/cmTC_72711.dir/build
+Building CXX object CMakeFiles/cmTC_72711.dir/feature_tests.cxx.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -std=c++14 -o CMakeFiles/cmTC_72711.dir/feature_tests.cxx.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_72711
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72711.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm CMakeFiles/cmTC_72711.dir/feature_tests.cxx.o -o cmTC_72711 
+
+
+
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+Performing C SOURCE FILE Test C_TEST_COMPILED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0841e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0841e.dir/build.make CMakeFiles/cmTC_0841e.dir/build
+Building C object CMakeFiles/cmTC_0841e.dir/src.c.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DC_TEST_COMPILED -o CMakeFiles/cmTC_0841e.dir/src.c.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0841e
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0841e.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DC_TEST_COMPILED CMakeFiles/cmTC_0841e.dir/src.c.o -o cmTC_0841e 
+
+
+Source file was:
+static inline void function(void) {} 
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_TEST_COMPILED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2f637/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2f637.dir/build.make CMakeFiles/cmTC_2f637.dir/build
+Building CXX object CMakeFiles/cmTC_2f637.dir/src.cxx.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DCXX_TEST_COMPILED -o CMakeFiles/cmTC_2f637.dir/src.cxx.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2f637
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f637.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DCXX_TEST_COMPILED CMakeFiles/cmTC_2f637.dir/src.cxx.o -o cmTC_2f637 
+
+
+Source file was:
+static inline void function(void) {} 
+int main() { return 0; }
+Performing C SOURCE FILE Test HAVE_C_FLAG succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ce690/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ce690.dir/build.make CMakeFiles/cmTC_ce690.dir/build
+Building C object CMakeFiles/cmTC_ce690.dir/src.c.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DHAVE_C_FLAG   -std=c99 -o CMakeFiles/cmTC_ce690.dir/src.c.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ce690
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce690.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DHAVE_C_FLAG CMakeFiles/cmTC_ce690.dir/src.c.o -o cmTC_ce690  -lm 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0b8f4/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0b8f4.dir/build.make CMakeFiles/cmTC_0b8f4.dir/build
+Building CXX object CMakeFiles/cmTC_0b8f4.dir/src.cxx.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DHAVE_CXX_FLAG   -std=c++11 -o CMakeFiles/cmTC_0b8f4.dir/src.cxx.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0b8f4
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b8f4.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DHAVE_CXX_FLAG CMakeFiles/cmTC_0b8f4.dir/src.cxx.o -o cmTC_0b8f4  -lm 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d4682/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d4682.dir/build.make CMakeFiles/cmTC_d4682.dir/build
+Building C object CMakeFiles/cmTC_d4682.dir/src.c.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DC_FLAG_SUPPORTED   -Wall -o CMakeFiles/cmTC_d4682.dir/src.c.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d4682
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4682.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DC_FLAG_SUPPORTED CMakeFiles/cmTC_d4682.dir/src.c.o -o cmTC_d4682  -lm 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e2181/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e2181.dir/build.make CMakeFiles/cmTC_e2181.dir/build
+Building CXX object CMakeFiles/cmTC_e2181.dir/src.cxx.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DCXX_FLAG_SUPPORTED   -Wall -o CMakeFiles/cmTC_e2181.dir/src.cxx.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e2181
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2181.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DCXX_FLAG_SUPPORTED CMakeFiles/cmTC_e2181.dir/src.cxx.o -o cmTC_e2181  -lm 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6656c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6656c.dir/build.make CMakeFiles/cmTC_6656c.dir/build
+Building C object CMakeFiles/cmTC_6656c.dir/src.c.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DC_FLAG_SUPPORTED   -Wdisabled-optimization -o CMakeFiles/cmTC_6656c.dir/src.c.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6656c
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6656c.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DC_FLAG_SUPPORTED CMakeFiles/cmTC_6656c.dir/src.c.o -o cmTC_6656c  -lm 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a2122/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a2122.dir/build.make CMakeFiles/cmTC_a2122.dir/build
+Building CXX object CMakeFiles/cmTC_a2122.dir/src.cxx.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DCXX_FLAG_SUPPORTED   -Wdisabled-optimization -o CMakeFiles/cmTC_a2122.dir/src.cxx.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a2122
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2122.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DCXX_FLAG_SUPPORTED CMakeFiles/cmTC_a2122.dir/src.cxx.o -o cmTC_a2122  -lm 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_394bf/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_394bf.dir/build.make CMakeFiles/cmTC_394bf.dir/build
+Building C object CMakeFiles/cmTC_394bf.dir/src.c.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DC_FLAG_SUPPORTED   -Wextra -o CMakeFiles/cmTC_394bf.dir/src.c.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_394bf
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_394bf.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DC_FLAG_SUPPORTED CMakeFiles/cmTC_394bf.dir/src.c.o -o cmTC_394bf  -lm 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a3d1f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a3d1f.dir/build.make CMakeFiles/cmTC_a3d1f.dir/build
+Building CXX object CMakeFiles/cmTC_a3d1f.dir/src.cxx.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DCXX_FLAG_SUPPORTED   -Wextra -o CMakeFiles/cmTC_a3d1f.dir/src.cxx.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a3d1f
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3d1f.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DCXX_FLAG_SUPPORTED CMakeFiles/cmTC_a3d1f.dir/src.cxx.o -o cmTC_a3d1f  -lm 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_752a8/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_752a8.dir/build.make CMakeFiles/cmTC_752a8.dir/build
+Building C object CMakeFiles/cmTC_752a8.dir/src.c.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DC_FLAG_SUPPORTED   -Wfloat-conversion -o CMakeFiles/cmTC_752a8.dir/src.c.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_752a8
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_752a8.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DC_FLAG_SUPPORTED CMakeFiles/cmTC_752a8.dir/src.c.o -o cmTC_752a8  -lm 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0657e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0657e.dir/build.make CMakeFiles/cmTC_0657e.dir/build
+Building CXX object CMakeFiles/cmTC_0657e.dir/src.cxx.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DCXX_FLAG_SUPPORTED   -Wfloat-conversion -o CMakeFiles/cmTC_0657e.dir/src.cxx.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0657e
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0657e.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DCXX_FLAG_SUPPORTED CMakeFiles/cmTC_0657e.dir/src.cxx.o -o cmTC_0657e  -lm 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6d4f1/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6d4f1.dir/build.make CMakeFiles/cmTC_6d4f1.dir/build
+Building C object CMakeFiles/cmTC_6d4f1.dir/src.c.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DC_FLAG_SUPPORTED   -Wimplicit-function-declaration -o CMakeFiles/cmTC_6d4f1.dir/src.c.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6d4f1
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d4f1.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DC_FLAG_SUPPORTED CMakeFiles/cmTC_6d4f1.dir/src.c.o -o cmTC_6d4f1  -lm 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0cc8f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0cc8f.dir/build.make CMakeFiles/cmTC_0cc8f.dir/build
+Building C object CMakeFiles/cmTC_0cc8f.dir/src.c.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DC_FLAG_SUPPORTED   -Wlogical-op -o CMakeFiles/cmTC_0cc8f.dir/src.c.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0cc8f
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0cc8f.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DC_FLAG_SUPPORTED CMakeFiles/cmTC_0cc8f.dir/src.c.o -o cmTC_0cc8f  -lm 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6ce69/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6ce69.dir/build.make CMakeFiles/cmTC_6ce69.dir/build
+Building CXX object CMakeFiles/cmTC_6ce69.dir/src.cxx.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DCXX_FLAG_SUPPORTED   -Wlogical-op -o CMakeFiles/cmTC_6ce69.dir/src.cxx.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6ce69
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ce69.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DCXX_FLAG_SUPPORTED CMakeFiles/cmTC_6ce69.dir/src.cxx.o -o cmTC_6ce69  -lm 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_22aee/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_22aee.dir/build.make CMakeFiles/cmTC_22aee.dir/build
+Building C object CMakeFiles/cmTC_22aee.dir/src.c.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DC_FLAG_SUPPORTED   -Wpointer-arith -o CMakeFiles/cmTC_22aee.dir/src.c.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_22aee
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22aee.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DC_FLAG_SUPPORTED CMakeFiles/cmTC_22aee.dir/src.c.o -o cmTC_22aee  -lm 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7a27e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7a27e.dir/build.make CMakeFiles/cmTC_7a27e.dir/build
+Building CXX object CMakeFiles/cmTC_7a27e.dir/src.cxx.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DCXX_FLAG_SUPPORTED   -Wpointer-arith -o CMakeFiles/cmTC_7a27e.dir/src.cxx.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7a27e
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a27e.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DCXX_FLAG_SUPPORTED CMakeFiles/cmTC_7a27e.dir/src.cxx.o -o cmTC_7a27e  -lm 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e83f7/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e83f7.dir/build.make CMakeFiles/cmTC_e83f7.dir/build
+Building C object CMakeFiles/cmTC_e83f7.dir/src.c.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DC_FLAG_SUPPORTED   -Wsign-compare -o CMakeFiles/cmTC_e83f7.dir/src.c.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e83f7
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e83f7.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DC_FLAG_SUPPORTED CMakeFiles/cmTC_e83f7.dir/src.c.o -o cmTC_e83f7  -lm 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e6251/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e6251.dir/build.make CMakeFiles/cmTC_e6251.dir/build
+Building CXX object CMakeFiles/cmTC_e6251.dir/src.cxx.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DCXX_FLAG_SUPPORTED   -Wsign-compare -o CMakeFiles/cmTC_e6251.dir/src.cxx.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e6251
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6251.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DCXX_FLAG_SUPPORTED CMakeFiles/cmTC_e6251.dir/src.cxx.o -o cmTC_e6251  -lm 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1204f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1204f.dir/build.make CMakeFiles/cmTC_1204f.dir/build
+Building C object CMakeFiles/cmTC_1204f.dir/src.c.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DC_FLAG_SUPPORTED   -Wtype-limits -o CMakeFiles/cmTC_1204f.dir/src.c.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1204f
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1204f.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DC_FLAG_SUPPORTED CMakeFiles/cmTC_1204f.dir/src.c.o -o cmTC_1204f  -lm 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1f45b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1f45b.dir/build.make CMakeFiles/cmTC_1f45b.dir/build
+Building CXX object CMakeFiles/cmTC_1f45b.dir/src.cxx.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DCXX_FLAG_SUPPORTED   -Wtype-limits -o CMakeFiles/cmTC_1f45b.dir/src.cxx.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1f45b
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f45b.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DCXX_FLAG_SUPPORTED CMakeFiles/cmTC_1f45b.dir/src.cxx.o -o cmTC_1f45b  -lm 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bc2ed/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bc2ed.dir/build.make CMakeFiles/cmTC_bc2ed.dir/build
+Building C object CMakeFiles/cmTC_bc2ed.dir/src.c.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DC_FLAG_SUPPORTED   -Wuninitialized -o CMakeFiles/cmTC_bc2ed.dir/src.c.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_bc2ed
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc2ed.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DC_FLAG_SUPPORTED CMakeFiles/cmTC_bc2ed.dir/src.c.o -o cmTC_bc2ed  -lm 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_073fc/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_073fc.dir/build.make CMakeFiles/cmTC_073fc.dir/build
+Building CXX object CMakeFiles/cmTC_073fc.dir/src.cxx.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DCXX_FLAG_SUPPORTED   -Wuninitialized -o CMakeFiles/cmTC_073fc.dir/src.cxx.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_073fc
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_073fc.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DCXX_FLAG_SUPPORTED CMakeFiles/cmTC_073fc.dir/src.cxx.o -o cmTC_073fc  -lm 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_02652/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_02652.dir/build.make CMakeFiles/cmTC_02652.dir/build
+Building C object CMakeFiles/cmTC_02652.dir/src.c.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DC_FLAG_SUPPORTED   -Wunused -o CMakeFiles/cmTC_02652.dir/src.c.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_02652
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02652.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DC_FLAG_SUPPORTED CMakeFiles/cmTC_02652.dir/src.c.o -o cmTC_02652  -lm 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5869a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5869a.dir/build.make CMakeFiles/cmTC_5869a.dir/build
+Building CXX object CMakeFiles/cmTC_5869a.dir/src.cxx.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DCXX_FLAG_SUPPORTED   -Wunused -o CMakeFiles/cmTC_5869a.dir/src.cxx.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5869a
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5869a.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DCXX_FLAG_SUPPORTED CMakeFiles/cmTC_5869a.dir/src.cxx.o -o cmTC_5869a  -lm 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0cec7/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0cec7.dir/build.make CMakeFiles/cmTC_0cec7.dir/build
+Building C object CMakeFiles/cmTC_0cec7.dir/src.c.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DC_FLAG_SUPPORTED   -Wvla -o CMakeFiles/cmTC_0cec7.dir/src.c.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0cec7
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0cec7.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DC_FLAG_SUPPORTED CMakeFiles/cmTC_0cec7.dir/src.c.o -o cmTC_0cec7  -lm 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9f1ca/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_9f1ca.dir/build.make CMakeFiles/cmTC_9f1ca.dir/build
+Building CXX object CMakeFiles/cmTC_9f1ca.dir/src.cxx.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DCXX_FLAG_SUPPORTED   -Wvla -o CMakeFiles/cmTC_9f1ca.dir/src.cxx.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9f1ca
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f1ca.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DCXX_FLAG_SUPPORTED CMakeFiles/cmTC_9f1ca.dir/src.cxx.o -o cmTC_9f1ca  -lm 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ba00e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ba00e.dir/build.make CMakeFiles/cmTC_ba00e.dir/build
+Building C object CMakeFiles/cmTC_ba00e.dir/src.c.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DC_FLAG_SUPPORTED   -Wstack-usage=100000 -o CMakeFiles/cmTC_ba00e.dir/src.c.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ba00e
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba00e.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DC_FLAG_SUPPORTED CMakeFiles/cmTC_ba00e.dir/src.c.o -o cmTC_ba00e  -lm 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_73f13/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_73f13.dir/build.make CMakeFiles/cmTC_73f13.dir/build
+Building CXX object CMakeFiles/cmTC_73f13.dir/src.cxx.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DCXX_FLAG_SUPPORTED   -Wstack-usage=240000 -o CMakeFiles/cmTC_73f13.dir/src.cxx.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_73f13
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73f13.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DCXX_FLAG_SUPPORTED CMakeFiles/cmTC_73f13.dir/src.cxx.o -o cmTC_73f13  -lm 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_15417/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_15417.dir/build.make CMakeFiles/cmTC_15417.dir/build
+Building C object CMakeFiles/cmTC_15417.dir/src.c.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DC_FLAG_SUPPORTED   -Wshadow -o CMakeFiles/cmTC_15417.dir/src.c.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_15417
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15417.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DC_FLAG_SUPPORTED CMakeFiles/cmTC_15417.dir/src.c.o -o cmTC_15417  -lm 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cf0f9/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cf0f9.dir/build.make CMakeFiles/cmTC_cf0f9.dir/build
+Building C object CMakeFiles/cmTC_cf0f9.dir/src.c.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DC_FLAG_SUPPORTED   -Wundef -o CMakeFiles/cmTC_cf0f9.dir/src.c.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_cf0f9
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf0f9.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DC_FLAG_SUPPORTED CMakeFiles/cmTC_cf0f9.dir/src.c.o -o cmTC_cf0f9  -lm 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b4253/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b4253.dir/build.make CMakeFiles/cmTC_b4253.dir/build
+Building C object CMakeFiles/cmTC_b4253.dir/src.c.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DC_FLAG_SUPPORTED   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=0 -o CMakeFiles/cmTC_b4253.dir/src.c.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b4253
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4253.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DC_FLAG_SUPPORTED CMakeFiles/cmTC_b4253.dir/src.c.o -o cmTC_b4253  -lm 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_42eca/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_42eca.dir/build.make CMakeFiles/cmTC_42eca.dir/build
+Building CXX object CMakeFiles/cmTC_42eca.dir/src.cxx.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DCXX_FLAG_SUPPORTED   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=0 -o CMakeFiles/cmTC_42eca.dir/src.cxx.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_42eca
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42eca.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DCXX_FLAG_SUPPORTED CMakeFiles/cmTC_42eca.dir/src.cxx.o -o cmTC_42eca  -lm 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a85d5/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a85d5.dir/build.make CMakeFiles/cmTC_a85d5.dir/build
+Building C object CMakeFiles/cmTC_a85d5.dir/src.c.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm -D_LARGEFILE_SOURCE  -DC_FLAG_SUPPORTED -o CMakeFiles/cmTC_a85d5.dir/src.c.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a85d5
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a85d5.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DC_FLAG_SUPPORTED CMakeFiles/cmTC_a85d5.dir/src.c.o -o cmTC_a85d5  -lm 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2e1a3/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2e1a3.dir/build.make CMakeFiles/cmTC_2e1a3.dir/build
+Building CXX object CMakeFiles/cmTC_2e1a3.dir/src.cxx.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm -D_LARGEFILE_SOURCE  -DCXX_FLAG_SUPPORTED -o CMakeFiles/cmTC_2e1a3.dir/src.cxx.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2e1a3
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e1a3.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DCXX_FLAG_SUPPORTED CMakeFiles/cmTC_2e1a3.dir/src.cxx.o -o cmTC_2e1a3  -lm 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fbfa1/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_fbfa1.dir/build.make CMakeFiles/cmTC_fbfa1.dir/build
+Building C object CMakeFiles/cmTC_fbfa1.dir/src.c.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm -D_FILE_OFFSET_BITS=64  -DC_FLAG_SUPPORTED -o CMakeFiles/cmTC_fbfa1.dir/src.c.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_fbfa1
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbfa1.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DC_FLAG_SUPPORTED CMakeFiles/cmTC_fbfa1.dir/src.c.o -o cmTC_fbfa1  -lm 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f0115/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f0115.dir/build.make CMakeFiles/cmTC_f0115.dir/build
+Building CXX object CMakeFiles/cmTC_f0115.dir/src.cxx.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm -D_FILE_OFFSET_BITS=64  -DCXX_FLAG_SUPPORTED -o CMakeFiles/cmTC_f0115.dir/src.cxx.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f0115
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0115.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DCXX_FLAG_SUPPORTED CMakeFiles/cmTC_f0115.dir/src.cxx.o -o cmTC_f0115  -lm 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test HAVE_C_FLAG succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_113db/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_113db.dir/build.make CMakeFiles/cmTC_113db.dir/build
+Building C object CMakeFiles/cmTC_113db.dir/src.c.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DHAVE_C_FLAG    -I/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/sysroot/usr/include -I/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -o CMakeFiles/cmTC_113db.dir/src.c.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_113db
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_113db.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DHAVE_C_FLAG CMakeFiles/cmTC_113db.dir/src.c.o -o cmTC_113db  -lm 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fb56b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_fb56b.dir/build.make CMakeFiles/cmTC_fb56b.dir/build
+Building CXX object CMakeFiles/cmTC_fb56b.dir/src.cxx.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DHAVE_CXX_FLAG    -I/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/sysroot/usr/include -I/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -o CMakeFiles/cmTC_fb56b.dir/src.cxx.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_fb56b
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb56b.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DHAVE_CXX_FLAG CMakeFiles/cmTC_fb56b.dir/src.cxx.o -o cmTC_fb56b  -lm 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8c26a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8c26a.dir/build.make CMakeFiles/cmTC_8c26a.dir/build
+Building CXX object CMakeFiles/cmTC_8c26a.dir/src.cxx.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DHAVE_CXX_FLAG    -I/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/sysroot/usr/include -I/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -I/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -I/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -o CMakeFiles/cmTC_8c26a.dir/src.cxx.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8c26a
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c26a.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DHAVE_CXX_FLAG CMakeFiles/cmTC_8c26a.dir/src.cxx.o -o cmTC_8c26a  -lm 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_TEST_COMPILED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_46566/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_46566.dir/build.make CMakeFiles/cmTC_46566.dir/build
+Building C object CMakeFiles/cmTC_46566.dir/src.c.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DC_TEST_COMPILED -fPIE -o CMakeFiles/cmTC_46566.dir/src.c.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_46566
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46566.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DC_TEST_COMPILED CMakeFiles/cmTC_46566.dir/src.c.o -o cmTC_46566  -lm 
+
+
+Source file was:
+ 
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_TEST_COMPILED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7c818/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7c818.dir/build.make CMakeFiles/cmTC_7c818.dir/build
+Building CXX object CMakeFiles/cmTC_7c818.dir/src.cxx.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DCXX_TEST_COMPILED -fPIE -o CMakeFiles/cmTC_7c818.dir/src.cxx.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7c818
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c818.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DCXX_TEST_COMPILED CMakeFiles/cmTC_7c818.dir/src.cxx.o -o cmTC_7c818  -lm 
+
+
+Source file was:
+ 
+int main() { return 0; }
+Performing C SOURCE FILE Test C_TEST_COMPILED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6f3bb/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6f3bb.dir/build.make CMakeFiles/cmTC_6f3bb.dir/build
+Building C object CMakeFiles/cmTC_6f3bb.dir/src.c.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DC_TEST_COMPILED -fPIE -o CMakeFiles/cmTC_6f3bb.dir/src.c.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6f3bb
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f3bb.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DC_TEST_COMPILED CMakeFiles/cmTC_6f3bb.dir/src.c.o -o cmTC_6f3bb  -lm 
+
+
+Source file was:
+ 
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_TEST_COMPILED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6bd03/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6bd03.dir/build.make CMakeFiles/cmTC_6bd03.dir/build
+Building CXX object CMakeFiles/cmTC_6bd03.dir/src.cxx.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DCXX_TEST_COMPILED -fPIE -o CMakeFiles/cmTC_6bd03.dir/src.cxx.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6bd03
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6bd03.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DCXX_TEST_COMPILED CMakeFiles/cmTC_6bd03.dir/src.cxx.o -o cmTC_6bd03  -lm 
+
+
+Source file was:
+ 
+int main() { return 0; }
+Performing C SOURCE FILE Test C_TEST_COMPILED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bae0a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bae0a.dir/build.make CMakeFiles/cmTC_bae0a.dir/build
+Building C object CMakeFiles/cmTC_bae0a.dir/src.c.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DC_TEST_COMPILED -fPIE -o CMakeFiles/cmTC_bae0a.dir/src.c.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_bae0a
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bae0a.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DC_TEST_COMPILED CMakeFiles/cmTC_bae0a.dir/src.c.o -o cmTC_bae0a  -lm 
+
+
+Source file was:
+ 
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_TEST_COMPILED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_240e1/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_240e1.dir/build.make CMakeFiles/cmTC_240e1.dir/build
+Building CXX object CMakeFiles/cmTC_240e1.dir/src.cxx.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DCXX_TEST_COMPILED -fPIE -o CMakeFiles/cmTC_240e1.dir/src.cxx.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_240e1
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_240e1.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DCXX_TEST_COMPILED CMakeFiles/cmTC_240e1.dir/src.cxx.o -o cmTC_240e1  -lm 
+
+
+Source file was:
+ 
+int main() { return 0; }
+Performing C SOURCE FILE Test C_TEST_COMPILED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2b9de/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2b9de.dir/build.make CMakeFiles/cmTC_2b9de.dir/build
+Building C object CMakeFiles/cmTC_2b9de.dir/src.c.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DC_TEST_COMPILED -fPIE -o CMakeFiles/cmTC_2b9de.dir/src.c.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2b9de
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b9de.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DC_TEST_COMPILED CMakeFiles/cmTC_2b9de.dir/src.c.o -o cmTC_2b9de  -lm 
+
+
+Source file was:
+ 
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_TEST_COMPILED succeeded with the following output:
+Change Dir: /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b6772/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b6772.dir/build.make CMakeFiles/cmTC_b6772.dir/build
+Building CXX object CMakeFiles/cmTC_b6772.dir/src.cxx.o
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm   -DCXX_TEST_COMPILED -fPIE -o CMakeFiles/cmTC_b6772.dir/src.cxx.o -c /Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b6772
+/usr/local/Cellar/cmake/3.18.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6772.dir/link.txt --verbose=1
+/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ -march=armv7-a -mfloat-abi=softfp --sysroot=/Users/ryan/programs/ruis/android/tools/android-ndk-r16b/platforms/android-16/arch-arm  -DCXX_TEST_COMPILED CMakeFiles/cmTC_b6772.dir/src.cxx.o -o cmTC_b6772  -lm 
+
+
+Source file was:
+ 
+int main() { return 0; }

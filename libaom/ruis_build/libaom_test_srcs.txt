@@ -1,0 +1,80 @@
+# This file is generated. DO NOT EDIT.
+test/acm_random.h
+test/aom_integer_test.cc
+test/av1_config_test.cc
+test/block_test.cc
+test/clear_system_state.h
+test/codec_factory.h
+test/function_equivalence_test.h
+test/log2_test.cc
+test/md5_helper.h
+test/metadata_test.cc
+test/register_state_check.h
+test/test_vectors.cc
+test/test_vectors.h
+test/transform_test_base.h
+test/util.h
+test/video_source.h
+test/decode_test_driver.cc
+test/decode_test_driver.h
+test/decode_api_test.cc
+test/external_frame_buffer_test.cc
+test/invalid_file_test.cc
+test/test_vector_test.cc
+test/ivf_video_source.h
+test/active_map_test.cc
+test/aq_segment_test.cc
+test/borders_test.cc
+test/cpu_speed_test.cc
+test/datarate_test.cc
+test/datarate_test.h
+test/svc_datarate_test.cc
+test/encode_api_test.cc
+test/encode_small_width_height_test.cc
+test/encode_test_driver.cc
+test/encode_test_driver.h
+test/end_to_end_test.cc
+test/gf_pyr_height_test.cc
+test/rt_end_to_end_test.cc
+test/frame_size_tests.cc
+test/horz_superres_test.cc
+test/i420_video_source.h
+test/level_test.cc
+test/monochrome_test.cc
+test/resize_test.cc
+test/scalability_test.cc
+test/y4m_test.cc
+test/y4m_video_source.h
+test/yuv_video_source.h
+test/time_stamp_test.cc
+test/webm_video_source.h
+test/test_libaom.cc
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data
+
+}
+
+int main(void)
+{
+  pthread_t thread
+
+  pthread_create(&thread, NULL, test_func, NULL)
+
+  pthread_detach(thread)
+
+  pthread_cancel(thread)
+
+  pthread_join(thread, NULL)
+
+  pthread_atfork(NULL, NULL, NULL)
+
+  pthread_exit(NULL)
+
+
+  return 0
+
+}
+

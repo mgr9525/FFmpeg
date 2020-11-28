@@ -1,0 +1,95 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "C"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_C
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/av1_cx_iface.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/av1_cx_iface.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/aq_complexity.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/aq_complexity.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/aq_cyclicrefresh.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/aq_cyclicrefresh.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/aq_variance.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/aq_variance.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/av1_fwd_txfm1d.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/av1_fwd_txfm1d.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/av1_fwd_txfm2d.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/av1_fwd_txfm2d.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/av1_noise_estimate.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/av1_noise_estimate.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/av1_quantize.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/av1_quantize.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/bitstream.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/bitstream.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/cnn.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/cnn.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/compound_type.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/compound_type.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/context_tree.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/context_tree.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/corner_detect.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/corner_detect.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/corner_match.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/corner_match.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/cost.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/cost.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/dwt.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/dwt.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/encode_strategy.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/encode_strategy.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/encodeframe.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/encodeframe.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/encodeframe_utils.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/encodeframe_utils.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/encodemb.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/encodemb.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/encodemv.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/encodemv.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/encoder.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/encoder.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/encoder_utils.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/encoder_utils.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/encodetxb.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/encodetxb.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/ethread.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/ethread.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/extend.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/extend.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/firstpass.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/firstpass.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/global_motion.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/global_motion.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/global_motion_facade.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/global_motion_facade.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/gop_structure.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/gop_structure.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/hash.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/hash.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/hash_motion.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/hash_motion.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/hybrid_fwd_txfm.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/hybrid_fwd_txfm.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/interp_search.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/interp_search.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/intra_mode_search.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/intra_mode_search.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/level.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/level.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/lookahead.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/lookahead.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/mcomp.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/mcomp.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/ml.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/ml.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/motion_search_facade.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/motion_search_facade.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/mv_prec.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/mv_prec.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/nonrd_pickmode.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/nonrd_pickmode.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/palette.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/palette.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/partition_search.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/partition_search.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/partition_strategy.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/partition_strategy.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/pass2_strategy.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/pass2_strategy.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/pickcdef.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/pickcdef.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/picklpf.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/picklpf.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/pickrst.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/pickrst.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/ransac.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/ransac.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/ratectrl.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/ratectrl.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/rd.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/rd.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/rdopt.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/rdopt.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/reconinter_enc.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/reconinter_enc.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/segmentation.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/segmentation.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/speed_features.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/speed_features.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/superres_scale.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/superres_scale.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/svc_layercontext.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/svc_layercontext.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/temporal_filter.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/temporal_filter.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/tokenize.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/tokenize.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/tpl_model.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/tpl_model.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/tx_search.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/tx_search.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/var_based_part.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/var_based_part.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/av1/encoder/wedge_utils.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/av1/encoder/wedge_utils.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/third_party/fastfeat/fast.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/third_party/fastfeat/fast.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/third_party/fastfeat/fast_9.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/third_party/fastfeat/fast_9.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/third_party/fastfeat/nonmax.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/third_party/fastfeat/nonmax.c.o"
+  "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/third_party/vector/vector.c" "/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/CMakeFiles/aom_av1_encoder.dir/third_party/vector/vector.c.o"
+  )
+set(CMAKE_C_COMPILER_ID "GNU")
+
+# The include file search paths:
+set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../"
+  "."
+  "../apps"
+  "../common"
+  "../examples"
+  "../stats"
+  "../third_party/libyuv/include"
+  "../third_party/libwebm"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

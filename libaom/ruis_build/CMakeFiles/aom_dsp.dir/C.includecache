@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/gen_src/aom_av1_dummy.c
+
+/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libaom/ruis_build/gen_src/aom_dsp_dummy.c
+

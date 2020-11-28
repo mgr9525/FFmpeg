@@ -1,0 +1,5 @@
+/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libx265/build/arm-linux/android/lib/libx265.a
+/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libx265/build/arm-linux/android/include/x265.h
+/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libx265/build/arm-linux/android/include/x265_config.h
+/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libx265/build/arm-linux/android/lib/libx265.so
+/Users/ryan/programs/ruis/android/ffmpeg/FFmpeg/libx265/build/arm-linux/android/lib/pkgconfig/x265.pc
