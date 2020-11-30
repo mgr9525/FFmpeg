@@ -8,14 +8,16 @@ X264Dir=$basepath/libx264/bin/mingw32
 #VPXDir=$basepath/libvpx/bin/android
 #AOMDir=$basepath/libaom/ruis_build/android
 
+make clean
+
 ./configure \
 --enable-cross-compile \
 --target-os=mingw32 \
 --arch=x86 \
 --cross-prefix=i686-w64-mingw32- \
 --prefix=$PREFIX \
---disable-shared \
---enable-static \
+--enable-shared \
+--disable-static \
 --enable-gpl \
 --enable-version3 \
 --disable-pthreads \
@@ -82,11 +84,23 @@ X264Dir=$basepath/libx264/bin/mingw32
 --disable-symver \
 --disable-stripping \
 --extra-cflags="-I$X264Dir/include -I$ZlibDir/include" \
---extra-ldflags="-L$X264Dir/lib -L$ZlibDir/lib" \
---pkg-config-flags="--static" \
+--extra-ldflags="-static -L$X264Dir/lib -L$ZlibDir/lib" \
 
 
 
-make clean
 make -j4
 make install
+
+# i686-w64-mingw32-ld \
+# -L/usr/i686-w64-mingw32/lib \
+# -L$PREFIX/lib \
+# -soname libffmpeg.so -static -nostdlib -Bsymbolic --whole-archive --no-undefined -o \
+# $PREFIX/libffmpeg.so \
+# $PREFIX/lib/libavcodec.a \
+# $PREFIX/lib/libavfilter.a \
+# $PREFIX/lib/libswresample.a \
+# $PREFIX/lib/libavformat.a \
+# $PREFIX/lib/libavutil.a \
+# $PREFIX/lib/libswscale.a \
+# $X264Dir/lib/libx264.a \
+# $ZlibDir/lib/libz.a \
