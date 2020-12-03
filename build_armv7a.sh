@@ -56,7 +56,7 @@ function build_one
 --enable-muxer=mp3 \
 --enable-muxer=mp4 \
 --enable-muxer=flv \
---enable-muxer=ivf \
+--enable-muxer=rtp \
 --enable-muxer=mjpeg \
 --disable-decoders \
 --enable-decoder=h264 \
@@ -80,7 +80,7 @@ function build_one
 --enable-demuxer=aac \
 --enable-demuxer=mp3 \
 --enable-demuxer=flv \
---enable-demuxer=ivf \
+--enable-demuxer=rtp \
 --enable-demuxer=mpegts \
 --enable-demuxer=mov \
 --disable-parsers \
@@ -94,6 +94,7 @@ function build_one
 --disable-protocols \
 --enable-protocol=file \
 --enable-protocol=concat \
+--enable-protocol=rtp \
 --enable-filters \
 --enable-zlib \
 --enable-libx264 \
