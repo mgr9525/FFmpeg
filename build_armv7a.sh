@@ -84,6 +84,10 @@ function build_one
 --enable-filters \
 --enable-zlib \
 --enable-libx264 \
+--enable-jni \
+--enable-mediacodec \
+--enable-decoder=h264_mediacodec \
+--enable-decoder=mpeg4_mediacodec \
 --disable-outdevs \
 --disable-doc \
 --disable-ffplay \
