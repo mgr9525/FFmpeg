@@ -7,10 +7,10 @@ set(CROSS_COMPILE_ARM 1)
 set(CMAKE_SYSTEM_NAME Linux)
 set(CMAKE_SYSTEM_PROCESSOR armv7l)
 
-set(NDK /Users/ryan/programs/ruis/android/tools/android-ndk-r16b)
+set(NDK /home/mgr/programs/android/android-ndk-r10e)
 set(PLATFORM ${NDK}/sysroot)
 set(PLATFORMLIB ${NDK}/platforms/android-16/arch-arm)
-set(TOOLCHAIN ${NDK}/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64)
+set(TOOLCHAIN ${NDK}/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64)
 
 SET(CMAKE_SYSROOT ${PLATFORMLIB})
 

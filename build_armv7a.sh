@@ -1,8 +1,8 @@
 #!/bin/bash
 
-NDK=/Users/ryan/programs/ruis/android/tools/android-ndk-r10e
+NDK=/home/mgr/programs/android/android-ndk-r10e
 PLATFORM=$NDK/platforms/android-16/arch-arm
-TOOLCHAIN=$NDK/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64
+TOOLCHAIN=$NDK/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64
 
 basepath=$(cd `dirname $0`; pwd)
 X264Dir=$basepath/libx264/android/arm
