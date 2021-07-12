@@ -14,11 +14,13 @@ set(TOOLCHAIN ${NDK}/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64)
 
 SET(CMAKE_SYSROOT ${PLATFORMLIB})
 
-include_directories(${PLATFORM}/usr/include
-    ${PLATFORM}/usr/include/arm-linux-androideabi
+include_directories(#${PLATFORM}/usr/include
+#     ${PLATFORM}/usr/include/arm-linux-androideabi
     ${NDK}/sources/cxx-stl/gnu-libstdc++/4.9/include
     ${NDK}/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include)
-link_directories(${PLATFORMLIB}/usr/lib)
+# link_directories(${PLATFORMLIB}/usr/lib)
+link_directories(${NDK}/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a)
+link_libraries("gnustl_static")
 
 # specify the cross compiler
 set(CMAKE_C_COMPILER ${TOOLCHAIN}/bin/arm-linux-androideabi-gcc)
